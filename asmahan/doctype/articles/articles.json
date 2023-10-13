@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:titlename",
+ "creation": "2023-10-05 10:11:05.628262",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "titlename",
+  "publishar",
+  "category",
+  "publishingyear"
+ ],
+ "fields": [
+  {
+   "fieldname": "titlename",
+   "fieldtype": "Data",
+   "label": "TitleName",
+   "unique": 1
+  },
+  {
+   "fieldname": "publishar",
+   "fieldtype": "Data",
+   "label": "Publishar"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "publishingyear",
+   "fieldtype": "Date",
+   "label": "PublishingYear"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-11 22:52:43.532661",
+ "modified_by": "Administrator",
+ "module": "Asmahan",
+ "name": "Articles",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

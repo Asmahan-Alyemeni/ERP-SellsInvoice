@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include asmahan *.css
+recursive-include asmahan *.csv
+recursive-include asmahan *.html
+recursive-include asmahan *.ico
+recursive-include asmahan *.js
+recursive-include asmahan *.json
+recursive-include asmahan *.md
+recursive-include asmahan *.png
+recursive-include asmahan *.py
+recursive-include asmahan *.svg
+recursive-include asmahan *.txt
+recursive-exclude asmahan *.pyc

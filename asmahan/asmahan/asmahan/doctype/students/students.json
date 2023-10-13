@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2023-10-05 10:05:46.201523",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "firstname",
+  "lastname",
+  "fullname",
+  "level",
+  "user",
+  "dept",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "FirstName",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "LastName",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Read Only",
+   "label": "FullName"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Select",
+   "label": "Level",
+   "options": "first\nsecond\nthird"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "dept",
+   "fieldtype": "Link",
+   "label": "Dept",
+   "options": "Dept"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-11 23:20:32.909643",
+ "modified_by": "Administrator",
+ "module": "Asmahan",
+ "name": "Students",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
